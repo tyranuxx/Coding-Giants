@@ -1,0 +1,97 @@
+body {
+	background-color: #cfe8ff;
+}
+
+#ambulance {
+	/* TODO: add size, border, rounded corners, text styling, and a background gradient */
+    width:500px;
+    height:300px;
+    border:1px solid black;
+    border-radius: 200px 5px 10px 20px;
+    text-align: center;
+    color: blue;
+    font-family: monospace;
+    font-size: 48px;
+    background: #ed2821;
+    background: linear-gradient(90deg, rgba(237, 40, 33, 1) 0%, rgba(233, 38, 29, 1) 20%, rgba(227, 36, 23, 1) 50%, rgba(227, 15, 0, 1) 79%, rgba(255, 51, 28, 0.97) 100%);
+}
+
+.wheel {
+    width: 90px;
+    height: 90px;
+    background:#ffffff;
+    border: 10px solid black;
+    border-radius: 100px;
+    text-align: center;
+    animation:spin 1s linear infinite;
+	/* TODO: turn the square into a circle with a thick border and start the spin animation */
+}
+
+#wheel-front {
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+	/* TODO: set the position of the front wheel */
+}
+
+#wheel-back {
+    position: relative;
+    bottom: 150px;
+    left: 350px;
+	/* TODO: set the position of the rear wheel */
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg)}
+    to {transform: rotate(360deg)}
+	/* TODO: define a full rotation from 0 to 360 degrees */
+}
+
+#siren {
+    position: relative;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius: 50px 50px 5px 5px;    
+	/* TODO: give the siren a size, black background, and rounded top edge */
+}
+
+#siren:hover {
+    animation:siren 1s infinite;
+	/* TODO: start the siren animation on mouse hover */
+}
+
+@keyframes siren {
+    0% {background-color: black;}
+    25% {background-color:blue;}
+    75% {background-color: red;}
+	/* TODO: define the background color change from black through blue to red */
+}
+
+#emergency {
+    position:absolute;
+    right: 30%;
+    top:200px;
+    padding: 20px;
+    background: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 1s;
+    font-family:font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-color: blue;
+body {
+    
+}
+
+    
+	/* TODO: set a red sign with a blue border and enable a smooth transition */
+}
+
+#emergency:hover {
+    transform: scale(2);
+	/* TODO: enlarge the sign on mouse hover */
+}

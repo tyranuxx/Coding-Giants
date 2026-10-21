@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 15%);
+}
+
+.postcard {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  /* TODO: background sky gradient */
+  background: #e4e4f2;
+  background: linear-gradient(0deg, rgba(228, 228, 242, 1) 0%, rgba(74, 200, 232, 1) 100%);
+}
+
+.sun {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  width: 80px;
+  height: 80px;
+  /* TODO: sun shape and glow */
+  /* TODO: sun color experiment */
+  box-shadow: -7px -16px 5px 0px rgba(252,226,0,0.75);
+-webkit-box-shadow: -7px -16px 5px 0px rgba(252,226,0,0.75);
+-moz-box-shadow: -7px -16px 5px 0px rgba(252,226,0,0.75);
+  border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+background: #ffbf00;
+}
+
+.hills {
+  position: absolute;
+  bottom: 30%;
+  left: -10%;
+  width: 120%;
+  height: 45%;
+  /* TODO: hills shape */
+  background: #23571b;
+background: linear-gradient(90deg, rgba(35, 87, 27, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(30, 176, 86, 1) 100%);
+}
+
+.water {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 32%;
+  /* TODO: water color and transparency */
+  border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+background: #4a88ed;
+background: radial-gradient(circle, rgba(74, 136, 237, 1) 0%, rgba(33, 145, 209, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-family: Georgia, serif;
+  /* TODO: text styling and shadow */
+  /* TODO: text color experiment */
+  text-shadow: 24px 17px 16px rgba(0, 0, 0, 0.57),
+    -19px -20px 23px rgba(52, 147, 249, 0.30),
+    20px 16px 22px rgba(238, 203, 27, 0.30);
+  color: white;
+  font-size: 2rem;
+}   
