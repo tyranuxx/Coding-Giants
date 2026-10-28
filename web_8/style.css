@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: rgb(31, 41, 55);
+	min-height: 100vh;
+	/* TODO: add a linear gradient as the page background */
+}
+
+header {
+	padding: 24px 32px;
+	color: white;
+	/* TODO: add a semi-transparent background and text shadow for the header */
+    background-color:blue
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 16px;
+	margin-top: 12px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+#intro {
+	padding: 32px;
+	color: white;
+	text-align: center;
+}
+
+/* TODO: add .ranking-grid styles with flex-wrap, gap, and centered cards */
+
+.ranking-grid{
+
+}
+
+
+/* TODO: add styles for a single .phone-card, the image, and the score badge */
+.phone-card {
+	width: 250px;
+}
+
+.phone-card img {
+	width: 100%;
+	height: auto;
+}
+
+.phone-card .score{
+
+}
+
+
+
+footer {
+	padding: 24px;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.4);
+}

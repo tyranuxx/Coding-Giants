@@ -3,7 +3,7 @@ Repositorio de github de Coding Giants España.
 
 ## Proyectos web
 
-La página principal enlaza a los siete proyectos publicados con GitHub Pages:
+La página principal enlaza a los ocho proyectos publicados con GitHub Pages:
 
 - [Proyecto web 1](./web_1/)
 - [Proyecto web 2](./web_2/)
@@ -12,3 +12,4 @@ La página principal enlaza a los siete proyectos publicados con GitHub Pages:
 - [Proyecto web 5](./web_5/)
 - [Proyecto web 6](./web_6/)
 - [Proyecto web 7](./web_7/)
+- [Proyecto web 8](./web_8/)
